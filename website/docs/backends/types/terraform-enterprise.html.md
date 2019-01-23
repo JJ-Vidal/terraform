@@ -64,6 +64,7 @@ The following configuration options / environment variables are supported:
   token](/docs/enterprise/users-teams-organizations/users.html#api-tokens). We
   recommend using the `ATLAS_TOKEN` environment variable rather than setting
   `access_token` in the configuration.
+* `access_token` - (optional) If configured, token will be requested during a `terraform init`.
 * `address` - (Optional) The URL of a Terraform Enterprise instance. Defaults to
   the SaaS version of Terraform Enterprise, at `"https://app.terraform.io"`; if
   you use a private install, provide its URL here.
